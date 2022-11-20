@@ -12,14 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/iammarsel/iammarsel.github.io"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Marsel Fetlyaev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
   "homepage": "https://iammarsel.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
