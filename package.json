@@ -5,6 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -18,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://iammarsel.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.8.0",
     "prettier": "^2.4.1"
   },
