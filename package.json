@@ -5,8 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Marsel Fetlyaev",
   "license": "ISC",
-  "homepage": "https://iammarsel.github.io/",
+  "homepage": "https://iammarsel.github.io/newport",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "gh-pages": "^4.0.0",
