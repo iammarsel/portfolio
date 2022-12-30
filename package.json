@@ -6,10 +6,12 @@
   "description": "Marsel Portfolio",
   "source": "src/index.html",
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "parcel",
-    "build": "parcel build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,6 @@
   "keywords": [],
   "author": "Marsel Fetlyaev",
   "license": "ISC",
-  
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "gh-pages": "^4.0.0",
@@ -30,6 +31,7 @@
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
+    "react-scripts": "^5.0.1",
     "vanilla-tilt": "^1.7.2"
   }
 }
