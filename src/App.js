@@ -2,7 +2,7 @@ import './styles.scss';
 import p1 from "./assets/bmates.png";
 import p2 from "./assets/beamcalc2.png";
 import p3 from "./assets/project2.png";
-import resume from "./assets/MarselFetlyaevResume.pdf";
+import resume from "./assets/Marsel_Fetlyaev_Resume.pdf";
 import face from "./assets/face.jpg";
 import "../node_modules/font-awesome/css/font-awesome.min.css"
 
