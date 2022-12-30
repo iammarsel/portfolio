@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/newport/static/css/main.7b0dc4a1.css",
-    "main.js": "/newport/static/js/main.67ccc88e.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/newport/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/project2.png": "/newport/static/media/project2.0aae8fa32380c4990f77.png",
-    "static/media/fontawesome-webfont.eot": "/newport/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/newport/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/newport/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/newport/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/bmates.png": "/newport/static/media/bmates.8a1aeb143cf5a607c95a.png",
-    "static/media/MarselFetlyaevResume.pdf": "/newport/static/media/MarselFetlyaevResume.3ecd80a26e3656ac28d3.pdf",
-    "static/media/beamcalc2.png": "/newport/static/media/beamcalc2.8b33bd7d765db0787f87.png",
-    "index.html": "/newport/index.html",
-    "main.7b0dc4a1.css.map": "/newport/static/css/main.7b0dc4a1.css.map",
-    "main.67ccc88e.js.map": "/newport/static/js/main.67ccc88e.js.map"
+    "main.css": "/static/css/main.a75e5a84.css",
+    "main.js": "/static/js/main.d657deda.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/project2.png": "/static/media/project2.0aae8fa32380c4990f77.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/MarselFetlyaevResume.pdf": "/static/media/MarselFetlyaevResume.c41b98b4cb324b32f2dd.pdf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bmates.png": "/static/media/bmates.8a1aeb143cf5a607c95a.png",
+    "static/media/beamcalc2.png": "/static/media/beamcalc2.8b33bd7d765db0787f87.png",
+    "index.html": "/index.html",
+    "main.a75e5a84.css.map": "/static/css/main.a75e5a84.css.map",
+    "main.d657deda.js.map": "/static/js/main.d657deda.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0dc4a1.css",
-    "static/js/main.67ccc88e.js"
+    "static/css/main.a75e5a84.css",
+    "static/js/main.d657deda.js"
   ]
 }
