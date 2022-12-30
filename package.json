@@ -1,4 +1,5 @@
 {
+  "homepage": "http://iammarsel.github.io/newport",
   "name": "newport",
   "version": "1.0.1",
   "private": "true",
@@ -17,7 +18,7 @@
   "keywords": [],
   "author": "Marsel Fetlyaev",
   "license": "ISC",
-  "homepage": "https://iammarsel.github.io/newport",
+  
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "gh-pages": "^4.0.0",
