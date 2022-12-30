@@ -1,206 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" class="sr">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" type="image/png" href="../src/assets/favicon.png" />
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Marsel Fetlyaev | Portfolio </title>
+    <meta name="keywords" content="iammarsel, Marsel Fetlyaev, Python" />
+    <meta name="description" content="Marsel Fetlyaev | Developer" />
 
-  <title>Marsel Fetlyaev | Portfolio </title>
-  <meta name="keywords" content="iammarsel, Marsel Fetlyaev, Python" />
-  <meta name="description" content="Marsel Fetlyaev | Developer" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="../src/styles.scss" />
-  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
-</head>
-
-<body>
-  <div id="top"></div>
-
-  <section id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title load-hidden">
-        Hi, my name is <span class="text-color-main">Marsel Fetlyaev</span>
-        <br />
-        I'm a Software Developer.
-      </h1>
-      <p class="hero-cta load-hidden">
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">More Info</a>
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://github.com/iammarsel" target="_blank">
-          <i class="fa fa-github fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev-96bb871b7/" target="_blank">
-          <i class="fa fa-linkedin fa-inverse"></i>
-        </a>
-      </p>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title load-hidden">About me</h2>
-      <div class="row about-wrapper">
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
-              src="assets/face.jpg" alt="Profile Image" />
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__info load-hidden">
-            <p class="about-wrapper__info-text">
-              I am a Software Developer interested in improving and contributing to projects in Computer Science.
-            </p>
-            <p class="about-wrapper__info-text">
-              Currently looking for a SWE position and mastering Data Stuctures
-            </p>
-            <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-                href="assets/MarselFetlyaevResume.pdf">
-                View Resume
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Brilliant Mates</h3>
-              <div>
-                <p class="mb-4">
-                  Two player chess game built with Python, includes notation system, flip board, load and save
-                  positions, and puzzles
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://www.youtube.com/watch?v=xIhZmLKso14">
-                Video Demo
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/iammarsel/BrilliantMatesGame">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/bmates.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Beam Calculator</h3>
-              <div>
-                <p class="mb-4">
-                  Engineering Beam Calculator used to calculate forces over the length of a beam, built in Python, using
-                  Tkinter and Matplotlib libraries
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://www.youtube.com/watch?v=7PS2pJWuoHo">
-                Video Demo
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/iammarsel/BeamCalculator">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/beamcalc2.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Networking Scripts</h3>
-              <div>
-                <p class="mb-4">
-                  Python and YML scripts to get info from Cisco IOS switches
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/iammarsel/networking_scripts">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project2.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper load-hidden">
-        <p class="contact-wrapper__text">Email me at fetmarsel2002@gmail.com</p>
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Email
-          now</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer navbar-static-bottom">
-    <div class="container">
-      <a rel="noreferrer" href="#top" class="back-to-top">
-        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-      </a>
-      <div class="social-links">
-        <a rel="noreferrer" href="https://www.linkedin.com/in/marsel-fetlyaev-96bb871b7/" target="_blank">
-          <i class="fa fa-linkedin fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" href="https://github.com/iammarsel" target="_blank">
-          <i class="fa fa-github fa-inverse"></i>
-        </a>
-      </div>
-      <hr />
-    </div>
-  </footer>
-  
-  <script defer type="module" src="../src/index.js"></script>
-</body>
-
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
