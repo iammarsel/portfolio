@@ -1,9 +1,9 @@
 import './styles.scss';
 import p1 from "./assets/bmates.png";
 import p2 from "./assets/beamcalc2.png";
-import p3 from "./assets/project2.png";
-import resume from "./assets/Marsel_Fetlyaev_Resume.pdf";
-import face from "./assets/face.jpg";
+import p3 from "./assets/levelup.png";
+import resume from "./assets/Marsel Fetlyaev Resume.pdf";
+import face from "./assets/face.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css"
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
               <i class="fa fa-github fa-inverse"></i>
             </a>
             <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev-96bb871b7/" target="_blank">
-              
-              
+
+
               <i class="fa fa-linkedin fa-inverse"></i>
             </a>
           </p>
@@ -45,10 +45,10 @@ function App() {
             <div class="col-md-6 col-sm-12">
               <div class="about-wrapper__info load-hidden">
                 <p class="about-wrapper__info-text">
-                  I am a Software Developer interested in improving and contributing to projects in Computer Science.
+                  I am a Computer Science sophomore student at University of South Florida looking for an internship in Software Development, Front End Web Development, and Computer Networking.
                 </p>
                 <p class="about-wrapper__info-text">
-                  Currently looking for a SWE position and mastering Data Stuctures
+                  I am most experienced with Python and have made several projects with it, including a two player chess game and an engineering beam calculator.
                 </p>
                 <span class="d-flex mt-3">
                   <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
@@ -71,11 +71,16 @@ function App() {
               <div class="col-lg-4 col-sm-12">
                 <div class="project-wrapper__text load-hidden">
                   <h3 class="project-wrapper__text-title">Brilliant Mates</h3>
+                  <h2>Technologies Used: Python, SQLite, pygame, tkinter</h2>
+                  <hr class="dotted"></hr>
                   <div>
                     <p class="mb-4">
-                      Two player chess game built with Python, includes notation system, flip board, load and save
-                      positions, and puzzles
+                      <li>Developed a two-player chess game in Python to allow players to analyze and review chess games</li>
+                      <li>Utilized pygame, tkinter, and pyexe for a full downloadable game with GUI and two player interaction</li>
+                      <li>Followed an Object-Oriented design for chess piece creation and modification with classes and functions</li>
+                      <li>Created a puzzle system using an SQLite database for storing and retrieving game scenarios</li>
                     </p>
+                    
                   </div>
                   <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
                     href="https://www.youtube.com/watch?v=xIhZmLKso14">
@@ -99,14 +104,52 @@ function App() {
               </div>
             </div>
 
+            
+
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">LevelUP Fitness</h3>
+                  <h2>Technologies Used: JavaScript, React, Firebase</h2>
+                  <hr class="dotted"></hr>
+                  <div>
+                    <p class="mb-4">
+                      <li>Used React Native for a personalized survey application that works on iOS, Android, and PC to give users a
+platform to track their fitness progression and gain knowledge on body health</li>
+                      <li>Implemented user authentication with a noSQL database solution from Firebase to store user fitness data</li>
+                    </p>
+                  </div>
+                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                    See Live
+                  </a>
+                  <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                    href="https://github.com/iammarsel/level-up">
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src={p3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row">
               <div class="col-lg-4 col-sm-12">
                 <div class="project-wrapper__text load-hidden">
                   <h3 class="project-wrapper__text-title">Beam Calculator</h3>
+                  <h2>Technologies Used: Python, matplotlib, tkinter</h2>
+                  <hr class="dotted"></hr>
                   <div>
                     <p class="mb-4">
-                      Engineering Beam Calculator used to calculate forces over the length of a beam, built in Python, using
-                      Tkinter and Matplotlib libraries
+                      <li>Developed an engineering beam calculator in Python to display graphical representations of forced applied to
+areas of the beam, to be able to visualize force distribution and adjust the beam properties when needed</li>
+                      <li>Managed the development team by distributing the workload and publishing new features using Git workflow</li>
+                      <li>Utilized matplotlib and tkinter libraries for multiple graphs of information and purposeful UI and UX</li>
                     </p>
                   </div>
                   <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
@@ -127,34 +170,6 @@ function App() {
                       <img alt="Project Image" class="img-fluid" src={p2} />
                     </div>
                   </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 col-sm-12">
-                <div class="project-wrapper__text load-hidden">
-                  <h3 class="project-wrapper__text-title">Networking Scripts</h3>
-                  <div>
-                    <p class="mb-4">
-                      Python and YML scripts to get info from Cisco IOS switches
-                    </p>
-                  </div>
-                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                    See Live
-                  </a>
-                  <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                    href="https://github.com/iammarsel/networking_scripts">
-                    Source Code
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-8 col-sm-12">
-                <div class="project-wrapper__image load-hidden">
-                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src={p3} />
-                  </div>
                 </div>
               </div>
             </div>
