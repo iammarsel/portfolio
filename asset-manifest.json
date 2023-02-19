@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/newport/static/css/main.7b0dc4a1.css",
-    "main.js": "/newport/static/js/main.d3be7f9a.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/newport/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/project2.png": "/newport/static/media/project2.0aae8fa32380c4990f77.png",
-    "static/media/fontawesome-webfont.eot": "/newport/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/newport/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/Marsel_Fetlyaev_Resume.pdf": "/newport/static/media/Marsel_Fetlyaev_Resume.acc0b8526bfbf2ed73d6.pdf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/newport/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/newport/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/bmates.png": "/newport/static/media/bmates.8a1aeb143cf5a607c95a.png",
-    "static/media/beamcalc2.png": "/newport/static/media/beamcalc2.8b33bd7d765db0787f87.png",
-    "index.html": "/newport/index.html",
-    "main.7b0dc4a1.css.map": "/newport/static/css/main.7b0dc4a1.css.map",
-    "main.d3be7f9a.js.map": "/newport/static/js/main.d3be7f9a.js.map"
+    "main.css": "/portfolio/static/css/main.aef0d5cc.css",
+    "main.js": "/portfolio/static/js/main.fb28440a.js",
+    "static/media/face.png": "/portfolio/static/media/face.efd2565615629a0c6f12.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Marsel Fetlyaev Resume.pdf": "/portfolio/static/media/Marsel Fetlyaev Resume.56ae90326c090cc96a73.pdf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/levelup.png": "/portfolio/static/media/levelup.76be2a8a37ca4701d97c.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bmates.png": "/portfolio/static/media/bmates.8a1aeb143cf5a607c95a.png",
+    "static/media/beamcalc2.png": "/portfolio/static/media/beamcalc2.8b33bd7d765db0787f87.png",
+    "index.html": "/portfolio/index.html",
+    "main.aef0d5cc.css.map": "/portfolio/static/css/main.aef0d5cc.css.map",
+    "main.fb28440a.js.map": "/portfolio/static/js/main.fb28440a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0dc4a1.css",
-    "static/js/main.d3be7f9a.js"
+    "static/css/main.aef0d5cc.css",
+    "static/js/main.fb28440a.js"
   ]
 }
