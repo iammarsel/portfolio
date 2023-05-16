@@ -45,7 +45,7 @@ function App() {
             <div class="col-md-6 col-sm-12">
               <div class="about-wrapper__info load-hidden">
                 <p class="about-wrapper__info-text">
-                  I am a Computer Science sophomore student at University of South Florida looking for an internship in Software Development, Front End Web Development, and Computer Networking.
+                  I am a third year Computer Science student at University of South Florida looking for an internship in Software Development, Front End Web Development, and Computer Networking.
                 </p>
                 <p class="about-wrapper__info-text">
                   I am most experienced with Python and have made several projects with it, including a two player chess game and an engineering beam calculator.
