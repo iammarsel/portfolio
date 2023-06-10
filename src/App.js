@@ -2,8 +2,9 @@ import './styles.scss';
 import p1 from "./assets/bmates.png";
 import p2 from "./assets/beamcalc2.png";
 import p3 from "./assets/levelup.png";
-import resume from "./assets/Marsel Fetlyaev Resume.pdf";
-import face from "./assets/face.png";
+import p4 from "./assets/recipelab.png"
+import resume from "./assets/Marsel_Fetlyaev_Resume.pdf";
+import face from "./assets/fetlyaev.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css"
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://github.com/iammarsel" target="_blank">
               <i class="fa fa-github fa-inverse"></i>
             </a>
-            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev-96bb871b7/" target="_blank">
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev/" target="_blank">
 
 
               <i class="fa fa-linkedin fa-inverse"></i>
@@ -87,7 +88,7 @@ function App() {
                     Video Demo
                   </a>
                   <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                    href="https://github.com/iammarsel/BrilliantMatesGame">
+                    href="https://github.com/iammarsel/brilliant-mates">
                     Source Code
                   </a>
                 </div>
@@ -104,7 +105,36 @@ function App() {
               </div>
             </div>
 
-            
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Recipe Lab</h3>
+                  <h2>Technologies Used: JavaScript, React Native, Google Vision</h2>
+                  <hr class="dotted"></hr>
+                  <div>
+                    <p class="mb-4">
+                      <li>Developed a Recipe suggestion mobile application in React Native that allows users to find recipes quickly based on the ingredients they have in the fridge</li>
+                      <li>Collaborated with talented peers at the SHPE hackathon called Hackabull, successfully completing the workload in only 24 hours</li>
+                    </p>
+                  </div>
+                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://youtube.com/shorts/o4h6oJKVBhI?feature=share">
+                    Video Demo
+                  </a>
+                  <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                    href="https://github.com/iammarsel/recipe-lab">
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src={p4} />
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="row">
               <div class="col-lg-4 col-sm-12">
@@ -182,9 +212,8 @@ areas of the beam, to be able to visualize force distribution and adjust the bea
         <div class="container">
           <h2 class="section-title">Contact</h2>
           <div class="contact-wrapper load-hidden">
-            <p class="contact-wrapper__text">Email me at fetmarsel2002@gmail.com</p>
-            <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Email
-              now</a>
+            <p class="contact-wrapper__text">Email me at marsel.fetlyaev@gmail.com</p>
+            <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:marsel.fetlyaev@email.com">Email now</a>
           </div>
         </div>
       </section>
@@ -195,7 +224,7 @@ areas of the beam, to be able to visualize force distribution and adjust the bea
             <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
           </a>
           <div class="social-links">
-            <a rel="noreferrer" href="https://www.linkedin.com/in/marsel-fetlyaev-96bb871b7/" target="_blank">
+            <a rel="noreferrer" href="https://www.linkedin.com/in/marsel-fetlyaev/" target="_blank">
               <i class="fa fa-linkedin fa-inverse"></i>
             </a>
             <a rel="noreferrer" href="https://github.com/iammarsel" target="_blank">
