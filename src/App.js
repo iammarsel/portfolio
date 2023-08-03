@@ -49,7 +49,15 @@ function App() {
                   I am a third year Computer Science student at University of South Florida looking for an internship in Software Development, Front End Web Development, and Computer Networking.
                 </p>
                 <p class="about-wrapper__info-text">
-                  I am most experienced with Python and have made several projects with it, including a two player chess game and an engineering beam calculator.
+                  I am most experienced with  <b>Python</b> and have made several projects with it, including a two player chess game and an engineering beam calculator.
+                </p>
+
+                <p class="about-wrapper__info-text">
+                  I am also experienced in <b>JavaScript</b> web development, primarily working with React JS and React Native, creating personal projects, such as this portfolio and others you can check out below!
+                </p>
+
+                <p class="about-wrapper__info-text">
+                  I also have worked with AWS cloud service and recently became certified as <b>AWS Certified Cloud Practitioner</b>. 
                 </p>
                 <span class="d-flex mt-3">
                   <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
@@ -140,7 +148,7 @@ function App() {
               <div class="col-lg-4 col-sm-12">
                 <div class="project-wrapper__text load-hidden">
                   <h3 class="project-wrapper__text-title">LevelUP Fitness</h3>
-                  <h2>Technologies Used: JavaScript, React, Firebase</h2>
+                  <h2>Technologies Used: JavaScript, React Native, Firebase</h2>
                   <hr class="dotted"></hr>
                   <div>
                     <p class="mb-4">
