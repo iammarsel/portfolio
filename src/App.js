@@ -2,7 +2,8 @@ import './styles.scss';
 import p1 from "./assets/bmates.png";
 import p2 from "./assets/beamcalc2.png";
 import p3 from "./assets/levelup.png";
-import p4 from "./assets/recipelab.png"
+import p4 from "./assets/recipelab.png";
+import fin from "./assets/financify-thumbnail.png";
 import resume from "./assets/Marsel_Fetlyaev_Resume.pdf";
 import face from "./assets/fetlyaev.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css"
@@ -112,6 +113,42 @@ function App() {
                 </div>
               </div>
             </div>
+
+
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Financify</h3>
+                  <h2>Technologies Used: React.js, AWS RDS with MySQL, Axios, Express, NodeJS</h2>
+                  <hr class="dotted"></hr>
+                  <div>
+                    <p class="mb-4">
+                      <li>Developing a personal finance website using React to enhance financial tracking of income and expenses for
+users, resulting in a 30% decrease of time spent accounting and a 40% reduction in unnecessary expenses</li>
+                      <li>Integrating a RESTful API with Axios, NodeJS, and Express, connecting the users’ entry database to each
+client, resulting in an organized finance structure for analysis and improvement</li>
+                      <li>Designing the user interface and experience with Tailwind CSS, resulting in a visually appealing and user-
+friendly interface, boosting engagement and satisfaction by 40%.</li>
+                    </p>
+                  </div>
+                  <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                    href="https://github.com/iammarsel/finance-app">
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="#!" target="_blank">
+                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt">
+                      <img alt="Project Image" class="img-fluid" src={fin} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
 
             <div class="row">
               <div class="col-lg-4 col-sm-12">
