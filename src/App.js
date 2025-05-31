@@ -18,17 +18,18 @@ function App() {
           <h1 class="hero-title load-hidden">
             Hi, my name is <span class="text-color-main">Marsel Fetlyaev</span>
             <br />
-            I'm a Software Developer.
+            I'm a Software Developer at Amazon,
+            <br />
+            and a founder of <span class="link-text">MarselTutors</span>
           </h1>
           <p class="hero-cta load-hidden">
-            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">More Info</a>
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">About Me</a>
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://marseltutors.com/" target="_blank">MarselTutors</a>
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev/" target="_blank">
+              <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
             <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://github.com/iammarsel" target="_blank">
               <i class="fa fa-github fa-inverse"></i>
-            </a>
-            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/marsel-fetlyaev/" target="_blank">
-
-
-              <i class="fa fa-linkedin fa-inverse"></i>
             </a>
           </p>
         </div>
@@ -47,23 +48,14 @@ function App() {
             <div class="col-md-6 col-sm-12">
               <div class="about-wrapper__info load-hidden">
                 <p class="about-wrapper__info-text">
-                  I am a third year Computer Science student at University of South Florida looking for an internship in Software Development, Front End Web Development, and Computer Networking.
-                </p>
+                Hi, I'm Marsel Fetlyaev, a senior Computer Science student at University of South Florida, currently focused on helping others succeed in their Software Development journey and internship search through MarselTutors. I'm passionate in pursuing a career as a Software Engineer and inspiring others to do the same.                </p>
                 <p class="about-wrapper__info-text">
-                  I am most experienced with  <b>Python</b> and have made several projects with it, including a two player chess game and an engineering beam calculator.
-                </p>
+                I recently completed a Software Development internship at Amazon, creating a full stack Java Application with database for the Stores department. I learned a lot about leadership, collaboration, and full scale implementation. I will be returning to Amazon this fall as a full time Software Developer!                </p>
 
-                <p class="about-wrapper__info-text">
-                  I am also experienced in <b>JavaScript</b> web development, primarily working with React JS and React Native, creating personal projects, such as this portfolio and others you can check out below!
-                </p>
-
-                <p class="about-wrapper__info-text">
-                  I also have worked with AWS cloud service and recently became certified as <b>AWS Certified Cloud Practitioner</b>. 
-                </p>
                 <span class="d-flex mt-3">
                   <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
                     href={resume}>
-                    View Resume
+                    Download Resume
                   </a>
                 </span>
               </div>

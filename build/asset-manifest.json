@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8471d3ee.css",
+    "main.js": "/static/js/main.b7b4b192.js",
+    "static/media/recipelab.png": "/static/media/recipelab.d791754a45cd7a6df517.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fetlyaev.png": "/static/media/fetlyaev.59ee5f6a21309371353d.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Marsel_Fetlyaev_Resume.pdf": "/static/media/Marsel_Fetlyaev_Resume.89fa9ae9fe22e3d79bfe.pdf",
+    "static/media/financify-thumbnail.png": "/static/media/financify-thumbnail.2dcbfebcd27d2311ef54.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/levelup.png": "/static/media/levelup.76be2a8a37ca4701d97c.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bmates.png": "/static/media/bmates.8a1aeb143cf5a607c95a.png",
+    "static/media/beamcalc2.png": "/static/media/beamcalc2.8b33bd7d765db0787f87.png",
+    "index.html": "/index.html",
+    "main.8471d3ee.css.map": "/static/css/main.8471d3ee.css.map",
+    "main.b7b4b192.js.map": "/static/js/main.b7b4b192.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8471d3ee.css",
+    "static/js/main.b7b4b192.js"
+  ]
+}
